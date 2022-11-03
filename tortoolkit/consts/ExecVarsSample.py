@@ -3,11 +3,11 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = False
+        IS_VPS = True
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
+        API_HASH = "a4c69a73e69f82577778ccc2aaf1c9c4"
+        API_ID = 24518966
+        BOT_TOKEN = "5331589042:AAHQXjGj4YeO9a0_pZ05YfYsrMfCI7N84H4"
         BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
@@ -15,13 +15,13 @@ except:
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = []
-        OWNER_ID = 0
+        OWNER_ID = 1528709600
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 10
 
         # Telegram Upload Limit (in bytes)
         TG_UP_LIMIT = 1700000000
@@ -30,10 +30,10 @@ except:
         FORCE_DOCUMENTS = False
 
         # Chracter to use as a completed progress 
-        COMPLETED_STR = "▰"
+        COMPLETED_STR = "•"
 
         # Chracter to use as a incomplete progress
-        REMAINING_STR = "▱"
+        REMAINING_STR = "○"
 
         # DB URI for access
         DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
